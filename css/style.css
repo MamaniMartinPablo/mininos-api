@@ -3,11 +3,43 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
 }
 
 body{
     background-color:coral;
 }
+
+/* Inicio Header */
+nav{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 80px;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin: 5px;
+}
+
+nav a{
+    color: white;
+}
+
+/* Fin Header */
+
+
+
+/* Inicio Main index*/
 
 main{
     display: flex;
@@ -24,12 +56,33 @@ main{
     margin: 5px;
 }
 
-img{
+.card img{
     width: 30vw;
     height:40vh;
     object-fit: contain;
+}
+.card .vetstreet_url a{
+    color: white;
 }
 
 .description{
     width: 30vw;
 }
+
+/* Fin Main index*/
+
+
+/* Inicio Main raza */
+
+.card .raza{
+    text-align: center;
+}
+.card .info{
+    text-align: right;
+}
+
+.card .info a {
+    color: white;
+}
+
+/* Fin Main raza */
